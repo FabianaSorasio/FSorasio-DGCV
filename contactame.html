@@ -13,35 +13,34 @@
     <link rel="stylesheet" href="styless.css"/>
 </head>
 <body>
-    <header>
-        <div class="isologotipo">
-            <img src="images/Iso.png" alt="Isologotipo" style="float: left;"> 
-        </div>
-        <aside>
-            <nav="redes-sociales">
-                <a href="https://wa.link/hqs57b/"> <img src="images/WhatsApp.png" alt="WhatsApp"> </a>
-                <a href="https://www.instagram.com/fsorasiodgcv/">  <img src="images/Instagram.png" alt="Instagram"> </a>
-                <a href="https://www.linkedin.com/in/fabiana-sorasio/">  <img src="images/LinkedIn.png" alt="Linkedin"> </a>
-            </nav>
-        </aside>
-    
-        <ul class="menu-principal">
-            <li class="Inicio">
+<header class="margen-superior">
+    <div class="isologotipo">
+        <img src="images/Iso.png" alt="Isologotipo" width="70%"> 
+    </div>
+    <aside class="redes-sociales">
+        <a href="https://wa.link/hqs57b/"> <img src="images/WhatsApp.png" alt="WhatsApp"> </a>
+        <a href="https://www.instagram.com/fsorasiodgcv/">  <img src="images/Instagram.png" alt="Instagram"> </a>
+        <a href="https://www.linkedin.com/in/fabiana-sorasio/">  <img src="images/LinkedIn.png" alt="Linkedin"> </a>
+    </aside>
+</header>
+<nav>
+    <ul class="nav menu-principal">
+        <li class="Inicio">
             <a class="nav-link" href="index.html">Inicio</a>
-            </li>
-            <li class="Sobre mi">
+        </li>
+        <li class="Sobre mi">
             <a class="nav-link" href="quien soy.html">Sobre mi</a>
-            </li>
-            <li class="Mis Trabajos">
+        </li>
+        <li class="Mis Trabajos">
             <a class="nav-link" href="portfolio.html">Mis Trabajos</a>
-            </li>
-            <li class="Contacto">
+        </li>
+        <li class="Contacto">
             <a class="nav-link" href="contactame.html">Contacto</a>
-            </li>
-        </ul>
-    </header>
-    <main>
-        <form action="procesar.php" method="post">
+        </li>
+    </ul>
+</nav> 
+<main>
+    <form action="procesar.php" method="post">
         <div class="nombre">
             <label for="nombre" class="form-label">Nombre y Apellido</label>
             <input type="nombres" class="form-control" id="nombre" name="nombres" aria-describedby="nombre_help">
@@ -56,10 +55,10 @@
             <textarea class="form-control" id="consulta" name="consulta" rows="3"></textarea>
         </div>
         <button type="submit" class="boton-enviar">Enviar</button>
-        </form>
-    </main>
-    <footer> 
-        <p>© 2023 Mi sitio web. Todos los derechos reservados.</p> 
-    </footer>
+    </form>
+</main>
+<footer> 
+    <p>© 2023 Mi sitio web. Todos los derechos reservados.</p> 
+</footer>
 </body>
 </html>
